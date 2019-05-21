@@ -15,6 +15,7 @@ public class Beta {
     
     public void setB(int b){
         this.b = b;
+        System.out.println("teste");
     }
     
       public int getB(){
