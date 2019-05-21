@@ -18,8 +18,6 @@ public class Alfa {
         this.a = a;
     }
     
-      public int getA(){
-        return this.a;
-    }
+    
     
 }
