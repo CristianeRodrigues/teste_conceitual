@@ -12,13 +12,15 @@ package teste_conceitual;
 public class Beta {
     int b;
     double bb;
+    Alfa A;
     
     public void setB(int b){
         this.b = b;
         System.out.println("teste");
     }
-    
-      public int getB(){
-        return this.b;
-    }
+      
+      public void show(){
+          A.setA(this.b);
+          System.out.println(this.b);
+      }
 }
