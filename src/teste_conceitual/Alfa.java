@@ -14,8 +14,14 @@ public class Alfa {
     int a;
     double aa;
     
+    
+    public void show(){
+        System.out.println("teste 2");
+    }
+    
     public void setA(int a){
         this.a = a;
+        System.out.println("oi");
     }
     
     
